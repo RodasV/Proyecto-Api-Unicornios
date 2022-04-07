@@ -1,0 +1,14 @@
+{
+  "name": "proyecto_31_03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "java.js",
+  "scripts": {
+    "start": "node java.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}

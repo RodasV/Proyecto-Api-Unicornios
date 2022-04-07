@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi página de unicornios</title>
+  <link rel="icon" type="image/x-icon" href='unicornio.jpg'>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  
+        <h1>ESTABLO DE UNICORNIOS</h1>
+ 
+
+  <div class="central">
+<!--Columna izquierda-->
+        <div class="izquierda">
+        <h3>Agregar unicornio al establo</h3>
+      
+        <div class="div-izquierda">
+          <label for="a-nombre">Nombre</label>
+          <input type="text" id="a-nombre" />
+        </div>
+        <div class="div-izquierda">
+          <label for="a-poder">Poder</label>
+          <input type="text" id="a-poder" />
+        </div>
+
+        <div class="div-izquierda">
+          <label for="a-foto">Foto</label>
+          <input type="text" id="a-foto" placeholder="coloca url"/>
+        </div>  
+
+        <div class="div-izquierda">
+          <label for="a-edad">Edad</label>
+          <input type="number" id="a-edad"/>
+        </div>
+        <button id="agregarUnicornio" onclick="agregarDatos()">Agregar</button>
+        </div>
+<!-- Columna derecha -->
+        <div class="derecha">
+        <h3 class="h3-a">Modificar un unicornio</h3>
+        <label>Para modificar un unicornio debes seleccionarlo</label>
+        
+        <div class="div-derecha">
+          <label for="b-nombre">Nombre</label>
+          <input type="text" id="b-nombre" />
+        </div>
+        <div class="div-derecha">
+          <label for="b-poder">Poder</label>
+          <input type="text" id="b-poder" />
+        </div>
+
+        <div class="div-derecha">
+          <label for="b-foto">Foto</label>
+          <input type="text" id="b-foto" placeholder="coloca url"/>
+        </div>
+
+        <div class="div-derecha">
+          <label for="b-edad">Edad</label>
+          <input type="text" id="b-edad"/>
+        </div>
+        <button id="modUnicornio" onclick="modificarAceptar()">Modificar</button>
+
+   </div>
+
+  </div>
+<!-- campo del establo -->
+  <h2>ESTABLO</h2>
+
+  <!-- IMÁGENES DE UNICORNIOS -->
+  <div id="cuadro">
+        <div id="data"></div>
+      </div>
+    </div>
+<script src="java.js"></script>
+</body>
+</html>
